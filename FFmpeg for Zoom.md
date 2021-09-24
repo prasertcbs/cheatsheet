@@ -1,4 +1,4 @@
-# FFmpeg for Zoom
+# `FFmpeg`
 
 # trim video
 ## from - to
