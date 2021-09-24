@@ -34,7 +34,8 @@ ffmpeg -safe 0 -f concat -i vlist.txt -c copy output.mp4
 
 # Extract the sound from a video and save it as MP3:
 ```sh
-ffmpeg -i video.mp4 -vn audio.mp4
+ffmpeg -i video.mp4 -vn audio.mp3
+ffmpeg -i video.mp4 -vn audio.m4a
 ```
 # add watermark
 ## create small test clip
